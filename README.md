@@ -14,3 +14,6 @@ Need scipy, scikit-learn, numpy+mkl.
 Great intro to using Python with ML with the titanic challenge:
 https://github.com/savarin/python_for_ml
 
+Breast cancer prediction:
+https://www.kaggle.com/gargmanish/basic-machine-learning-with-cancer
+
