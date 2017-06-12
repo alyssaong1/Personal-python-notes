@@ -17,3 +17,25 @@ https://github.com/savarin/python_for_ml
 Breast cancer prediction:
 https://www.kaggle.com/gargmanish/basic-machine-learning-with-cancer
 
+## Setting up CNTK
+
+Set up the Linux Data Science Virtual Machine from the Cortana Intelligence Gallery
+
+Run `dsvm-more-info` for more info on the ML tools in the VM.
+
+Activate the python 3.5 environment with `source /anaconda/bin/activate py35`
+
+[set up VM](https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-linux-dsvm-intro) Make sure you set up python 3.4
+
+`git clone https://github.com/Azure/ObjectDetectionUsingCntk.git`
+
+Pip install the following (in sudo): 
+
+- scikit-learn
+- Pillow
+- future
+- `sudo yum install cmake` (Get cmake for CentOS)
+- dlib - this takes ages
+- EasyDict
+
+
