@@ -27,7 +27,7 @@ Activate the python 3.5 environment with `source /anaconda/bin/activate py35`
 
 Go get CNTK 2.0, [instructions](https://docs.microsoft.com/en-us/cognitive-toolkit/Setup-Linux-Python)
 
-[set up VM](https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-linux-dsvm-intro) Make sure you set up python 3.4
+[set up VM](https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-linux-dsvm-intro)
 
 `git clone https://github.com/Azure/ObjectDetectionUsingCntk.git`
 
