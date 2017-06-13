@@ -17,7 +17,17 @@ https://github.com/savarin/python_for_ml
 Breast cancer prediction:
 https://www.kaggle.com/gargmanish/basic-machine-learning-with-cancer
 
-## Setting up CNTK
+## Setting up CNTK on Windows
+
+Spin up a DSVM windows server 2012 VM. Remote Desktop in using your username and password credentials you created. 
+
+Remember to `conda install scikit-image` then go download the wheel for opencv [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/) and install using pip install. 
+
+[Helpful link for installation FAQ](https://catinthemorning.wordpress.com/2017/02/12/install-cntk-on-windows/)
+
+[Use your own data](https://docs.microsoft.com/en-us/cognitive-toolkit/Object-Detection-using-Fast-R-CNN#train-on-your-own-data)
+
+## Setting up CNTK on Linux
 
 Set up the Linux Data Science Virtual Machine from the Cortana Intelligence Gallery. **Update** JK found out that this is buggy so better to go to Azure portal > New > then search for dsvm linux and spin it up from the portal. Don't forget to agree to the programmatic agreement. 
 
