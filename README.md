@@ -27,6 +27,8 @@ Remember to `conda install scikit-image` then go download the wheel for opencv [
 
 [Use your own data](https://docs.microsoft.com/en-us/cognitive-toolkit/Object-Detection-using-Fast-R-CNN#train-on-your-own-data)
 
+Remember to run `activate py35` before running any scripts. 
+
 ## Setting up CNTK on Linux
 
 Set up the Linux Data Science Virtual Machine from the Cortana Intelligence Gallery. **Update** JK found out that this is buggy so better to go to Azure portal > New > then search for dsvm linux and spin it up from the portal. Don't forget to agree to the programmatic agreement. 
