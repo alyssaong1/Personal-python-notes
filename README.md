@@ -17,6 +17,9 @@ https://github.com/savarin/python_for_ml
 Breast cancer prediction:
 https://www.kaggle.com/gargmanish/basic-machine-learning-with-cancer
 
+SVM detailed analysis for predicting gender:
+https://www.kaggle.com/nirajvermafcb/support-vector-machine-detail-analysis
+
 ## Setting up CNTK on Windows
 
 Spin up a DSVM windows server 2012 VM. Remote Desktop in using your username and password credentials you created. 
