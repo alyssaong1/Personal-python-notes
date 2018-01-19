@@ -5,6 +5,9 @@ pip install --upgrade pip
 Setup virtualenv on Windows
 https://stackoverflow.com/questions/4527958/python-virtualenv-questions
 
+Open VSCode from a virtual environment just created:
+https://donjayamanne.github.io/pythonVSCodeDocs/docs/python-path/
+
 Install scipy manually 
 https://stackoverflow.com/a/39814710
 http://www.lfd.uci.edu/~gohlke/pythonlibs/
