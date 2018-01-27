@@ -5,6 +5,9 @@ pip install --upgrade pip
 Setup virtualenv on Windows
 https://stackoverflow.com/questions/4527958/python-virtualenv-questions
 
+Create a python 3 virtualenv:
+virtualenv -p python3 envname
+
 Open VSCode from a virtual environment just created:
 https://donjayamanne.github.io/pythonVSCodeDocs/docs/python-path/
 
