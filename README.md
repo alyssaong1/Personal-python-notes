@@ -63,3 +63,12 @@ Pip install the following (in sudo):
 
 Make sure you use `sudo /anaconda/envs/py35/bin/pip install <package> # for Python 3.5 environment` so that it installs in the right environment
 
+## Setting up Tensorflow using Python 2.7 on a DSVM
+
+Use the following:
+https://www.tensorflow.org/install/install_linux#installing_with_anaconda
+https://www.tensorflow.org/install/install_linux#the_url_of_the_tensorflow_python_package (select 2.7 CPU package)
+
+Then run everything while inside the (tensorflow) environment
+
+
