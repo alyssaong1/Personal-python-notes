@@ -77,3 +77,7 @@ Then run everything while inside the (tensorflow) environment
 
 Truncating the dictionary: 
 https://stackoverflow.com/questions/7971618/python-return-first-n-keyvalue-pairs-from-dict
+
+## Tensorflow translator project
+
+python -m nmt.nmt \ --src=vi --tgt=en \ --vocab_prefix=nmt/iwslt15/vocab \ --train_prefix=nmt/iwslt15/train \ --dev_prefix=nmt/iwslt15/tst2012 \ --test_prefix=nmt/iwslt15/tst2013 \ --out_dir=nmt/iwslt15/nmt_model \ --num_train_steps=12000 \ --steps_per_stats=100 \ --num_layers=2 \ --num_units=128 \ --dropout=0.2 \ --metrics=bleu
