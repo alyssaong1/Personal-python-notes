@@ -85,3 +85,10 @@ Run this in the **root nmt folder**
 python -m nmt.nmt \ --src=vi --tgt=en \ --vocab_prefix=nmt/iwslt15/vocab \ --train_prefix=nmt/iwslt15/train \ --dev_prefix=nmt/iwslt15/tst2012 \ --test_prefix=nmt/iwslt15/tst2013 \ --out_dir=nmt/iwslt15/nmt_model \ --num_train_steps=12000 \ --steps_per_stats=100 \ --num_layers=2 \ --num_units=128 \ --dropout=0.2 \ --metrics=bleu
 
 If you want to retrain with different number of steps, make sure you delete contents in nmt_model first.
+
+### Deploying to server
+Remember to use `flask run --host=0.0.0.0` to expose to a public server, see here: http://flask.pocoo.org/docs/0.12/quickstart/#quickstart
+
+Make sure you put the index.html file into a templates folder - this is the default folder flash renders templates from.
+
+
