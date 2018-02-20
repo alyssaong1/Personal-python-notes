@@ -95,3 +95,5 @@ Make sure you put the index.html file into a templates folder - this is the defa
 C:\Users\alon\AppData\Local\AmlInstaller\.datastore - make sure you delete everything in here when doing a reinstallation. Then run 
 Installer.Windows.exe in the same AmlInstaller folder.
 
+Merge issues:
+Resolve the dsource and dsource.user file. Go back to the dsource in workbench. Click on "Prepare". Select the preparation package in the root folder. Then click on reference dataflow > edit > this file > click Ok
