@@ -91,4 +91,7 @@ Remember to use `flask run --host=0.0.0.0` to expose to a public server, see her
 
 Make sure you put the index.html file into a templates folder - this is the default folder flash renders templates from.
 
+## Azure ML installation
+C:\Users\alon\AppData\Local\AmlInstaller\.datastore - make sure you delete everything in here when doing a reinstallation. Then run 
+Installer.Windows.exe in the same AmlInstaller folder.
 
