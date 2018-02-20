@@ -97,3 +97,7 @@ Installer.Windows.exe in the same AmlInstaller folder.
 
 Merge issues:
 Resolve the dsource and dsource.user file. Go back to the dsource in workbench. Click on "Prepare". Select the preparation package in the root folder. Then click on reference dataflow > edit > this file > click Ok
+
+Add the following into .gitignore:
+*.dprep.user
+*.dsource.user
