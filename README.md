@@ -87,7 +87,12 @@ python -m nmt.nmt \ --src=vi --tgt=en \ --vocab_prefix=nmt/iwslt15/vocab \ --tra
 If you want to retrain with different number of steps, make sure you delete contents in nmt_model first.
 
 ### Deploying to server
+`source activate tensorflow`
+`export FLASK_APP=predict.py`
 Remember to use `flask run --host=0.0.0.0` to expose to a public server, see here: http://flask.pocoo.org/docs/0.12/quickstart/#quickstart
+
+To list all ports running:
+`lsof -i`
 
 Make sure you put the index.html file into a templates folder - this is the default folder flash renders templates from.
 
