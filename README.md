@@ -106,3 +106,6 @@ Resolve the dsource and dsource.user file. Go back to the dsource in workbench. 
 Add the following into .gitignore:
 *.dprep.user
 *.dsource.user
+
+## Running the reddit RNN project
+Downloading large gdrive files from ubuntu (see vladalive's comment) - https://gist.github.com/iamtekeste/3cdfd0366ebfd2c0d805
