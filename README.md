@@ -109,3 +109,12 @@ Add the following into .gitignore:
 
 ## Running the reddit RNN project
 Downloading large gdrive files from ubuntu (see vladalive's comment) - https://gist.github.com/iamtekeste/3cdfd0366ebfd2c0d805
+
+## Running cornell movie corpus RNN
+https://github.com/suriyadeepan/practical_seq2seq
+
+Create virtualenv and install tf 1.0 gpu 
+Install nltk
+Download the dataset from https://github.com/suriyadeepan/datasets/tree/master/seq2seq/cornell_movie_corpus/raw_data
+Create the cornell corpus folder in the ckpt folder
+https://www.tensorflow.org/install/install_windows#requirements_to_run_tensorflow_with_gpu_support
