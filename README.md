@@ -118,3 +118,6 @@ Install nltk
 Download the dataset from https://github.com/suriyadeepan/datasets/tree/master/seq2seq/cornell_movie_corpus/raw_data
 Create the cornell corpus folder in the ckpt folder
 https://www.tensorflow.org/install/install_windows#requirements_to_run_tensorflow_with_gpu_support
+
+Creating a kernel for Jupyter using existing virtualenv:
+http://anbasile.github.io/programming/2017/06/25/jupyter-venv/
