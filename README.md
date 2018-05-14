@@ -63,6 +63,13 @@ Pip install the following (in sudo):
 
 Make sure you use `sudo /anaconda/envs/py35/bin/pip install <package> # for Python 3.5 environment` so that it installs in the right environment
 
+## Setting up Tensorflow Object Detection API
+
+Proto issues:
+https://github.com/tensorflow/models/issues/1834#issuecomment-312476609
+
+
+
 ## Build your clone project 
 
 ### Setting up Tensorflow using Python 2.7 on a DSVM
